@@ -19,7 +19,7 @@ const Sidebar = () => {
               activeClassName="active"
               onClick={() => handleSetActivePage('/build-portfolio')}
             >
-              <span className="capshift-icn_build_a_portfolio mb-2"></span>
+              <span className="capshift-icn_build_a_portfolio fs-1 mb-2"></span>
               <span className="aside-menu-text">Build a Portfolio</span>
             </NavLink>
           </li>
