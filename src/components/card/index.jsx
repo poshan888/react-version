@@ -10,8 +10,8 @@ const Card = ({item,index}) => {
       <div className="card service-card">
         <div className="card-header">
           <div className="card-header-top">
-            <img src="./../../assets/images/webp/domain_partner_logo.webp" alt="HTest Logo" srcSet="./../../assets/images/webp/domain_partner_logo.webp" width="90" height="40" />
-            <button type="button" className="btn btn-icon">
+            <img src="/images/webp/domain_partner_logo.webp" alt="HTest Logo" srcSet="/images/webp/domain_partner_logo.webp" width="90" height="40" />
+            <button type="button" className="btn btn-icon btn-white">
               <span className="capshift-star"></span>
             </button>
           </div>
@@ -45,11 +45,11 @@ const Card = ({item,index}) => {
           </ul>
         </div>
         <div className="card-footer">
-          <div className="card-action-btns">
+          <div className="card-action-btns d-flex gap-2">
             <button type="button" className="btn btn-info" aria-labelledby="Clean Energy">Clean Energy</button>
             <button type="button" className="btn btn-danger" aria-labelledby="Health">Health</button>
           </div>
-          <a href="#/" className="types-read-more">+4</a>
+          <a href="#/" className="types-read-more ms-2">+4</a>
         </div>
       </div>
     </div>

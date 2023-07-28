@@ -10,6 +10,8 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<MyDeals />} />
+          <Route path="/upload-deal" element={<h1>Upload Deal</h1>} />
+          <Route path="/my-investments" element={<h1>My Investments</h1>} />
           <Route path="/build-portfolio" element={<h1>build-portfolio</h1>} />
           {/* <Route path="/" element={<MyDeals />} />
           <Route path="/" element={<MyDeals />} /> */}

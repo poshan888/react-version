@@ -43,6 +43,13 @@
     &-top {
       top: 0;
       align-items: center;
+
+      .btn-white {
+        
+        &:hover {
+          color: $secondary;
+        }
+      }
     }
 
     &-bottom {

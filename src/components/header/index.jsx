@@ -1,6 +1,8 @@
 import React from 'react'
 import Aos from 'aos';
 import 'aos/src/sass/aos.scss';
+import 'jquery/dist/jquery';
+import '@popperjs/core';
 
 const index = () => {
   Aos.init();
@@ -10,7 +12,7 @@ const index = () => {
       <nav className="navbar navbar-expand-md bg-primary">
         <div className="container-fluid">
           <button className="navbar-toggler navbar-brand d-flex align-items-center gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="capshift-menu text-info"></span> <img src="../../../src/assets/images/webp/logo.webp" alt="HTest Logo" srcSet="../../../src/assets/images/webp/logo.webp" />
+            <span className="capshift-menu text-info"></span> <img src="/images/webp/logo.webp" alt="HTest Logo" srcSet="/images/webp/logo.webp" />
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto align-items-md-center">
@@ -25,9 +27,9 @@ const index = () => {
                 </button>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle text-white" href="#/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button type='button' className="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">
                   <span className="capshift-user"></span> John Fowler
-                </a>
+                </button>
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#"><span className="capshift-Financials me-2"></span> Dashboard</a></li>
                   <li><a className="dropdown-item" href="#"><span className="capshift-edit me-2"></span> Edit Profile</a></li>

@@ -24,7 +24,11 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink title="My Investments" className="d-flex flex-column align-items-center text-center">
+            <NavLink title="My Investments" className="d-flex flex-column align-items-center text-center"
+              to="/my-investments"
+              activeClassName="active"
+              onClick={() => handleSetActivePage('/my-investments')}
+            >
               <span className="capshift-icn_my_investments mb-2"></span>
               <span className="aside-menu-text">My Investments</span>
             </NavLink>
@@ -41,7 +45,11 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink title="Upload a Deal" className="d-flex flex-column align-items-center text-center">
+            <NavLink title="Upload a Deal" className="d-flex flex-column align-items-center text-center"
+              to="/upload-deal"
+              activeClassName="active"
+              onClick={() => handleSetActivePage('/upload-deal')}
+            >
               <span className="capshift-icn_upload_a_deal mb-2"></span>
               <span className="aside-menu-text">Upload a Deal</span>
             </NavLink>

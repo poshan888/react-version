@@ -8,35 +8,35 @@ const MyDeals = () => {
   
   const data = [
     {id: 1,
-      img: "../../assets/images/webp/img-1.webp",
+      img: "/images/webp/img-1.webp",
       title:"US Liquid Impact Fund LLC"
     },
     {id: 2,
-      img: "../../assets/images/webp/img-2.webp",
+      img: "/images/webp/img-2.webp",
       title:"US Liquid Impact Fund LLC"
     },
     {id: 3,
-      img: "../../assets/images/webp/img-3.webp",
+      img: "/images/webp/img-3.webp",
       title:"US Liquid Impact Fund LLC"
     },
     {id: 4,
-      img: "../../assets/images/webp/img-1.webp",
+      img: "/images/webp/img-1.webp",
       title:"US Liquid Impact Fund LLC"
     },
     {id: 5,
-      img: "../../assets/images/webp/img-2.webp",
+      img: "/images/webp/img-2.webp",
       title:"US Liquid Impact Fund LLC"
     },
     {id: 6,
-      img: "../../assets/images/webp/img-3.webp",
+      img: "/images/webp/img-3.webp",
       title:"US Liquid Impact Fund LLC"
     },
     {id: 7,
-      img: "../../assets/images/webp/img-1.webp",
+      img: "/images/webp/img-1.webp",
       title:"US Liquid Impact Fund LLC"
     },
     {id: 8,
-      img: "../../assets/images/webp/img-2.webp",
+      img: "/images/webp/img-2.webp",
       title:"US Liquid Impact Fund LLC"
     },
   ]
